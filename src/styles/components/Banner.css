@@ -1,0 +1,14 @@
+.home-banner{
+    background-image: url(../../../public/img/accueil/banner-home.png);
+    background-position: 20% 20%;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+
+.home-banner img{
+    display: block;
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}

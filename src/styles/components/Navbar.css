@@ -1,0 +1,86 @@
+.nav-logo-name, .icons h3{
+    display: none;
+}
+
+.icons{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+a:hover>svg{
+    fill: rgba(255, 0, 0, 0.5);
+}
+
+a:focus>svg{
+    fill: rgba(255, 0, 0, 0.5);
+}
+
+
+@media (min-width: 700px){
+    nav{
+        width: auto;
+        height: 110px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 20px;
+        padding: 20px 20px;
+    }
+    
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    nav a:visited{
+        color: black;
+    }
+    
+    nav a:hover{
+        color: rgba(255, 0, 0, 0.5);
+    }
+    
+    .nav-logo-name{
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-logo-name, .icons h3{
+        display: inherit;
+    }
+    
+    .nav-logo{
+        width: 10%;
+        margin-right: 20px;
+    }
+    
+    .nav-name{
+        width: 40%;
+    }
+    
+    .icons{
+        position: inherit;
+        width: 33vw;
+        min-width: 450px;
+        display: flex;
+        justify-content: space-between;
+        color: black;
+    }
+    
+    .icons>a {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    h3{
+        font-size: 20px;
+        font-weight: 100;
+        margin-left: 15px;
+        align-self: flex-end;
+        font-family: 'Anton', sans-serif !important;
+    }
+}
