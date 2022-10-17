@@ -3,7 +3,7 @@ import "../styles/components/LOLTeam.css"
 
 function LOLTeam() {
     return (
-        <section class="team team-lol">
+        <section class="team team-lol" id='team-lol'>
 
 
             <div class="result-header result-header-lol">

@@ -3,7 +3,7 @@ import "../styles/components/ValorantTeam.css"
 
 function ValorantTeam() {
     return (
-        <section class="team team-valorant">
+        <section class="team team-valorant" id='team-valorant'>
             <div class="result-header result-header-valorant">
                 <h2>GRANDSPIRIT TEAM</h2>
                 <img src="./img/equipes/logo-valo-01-330x70.png" alt=""/>
