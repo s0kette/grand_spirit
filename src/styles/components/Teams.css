@@ -1,0 +1,70 @@
+.index-teams{
+    margin: 150px 30px 50px 30px;
+}
+
+.index-teams h2{
+    color: rgb(226, 32, 32);
+    margin-bottom: 30px;
+}
+
+.games{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.valorant, .lol{
+    display: block;
+    width: 150px;
+    height: 135px;
+    border: 1px solid black;
+}
+
+.games img{
+    width: 150px;
+}
+
+.index-teams a{
+    font-family: 'News Cycle', sans-serif;
+    color: black;
+}
+
+.index-teams a:visited{
+    color: black;
+}
+
+.index-teams a:hover{
+    color:rgba(255, 0, 0, 0.5);
+}
+
+
+
+@media (min-width: 700px){
+
+    .games{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-around;
+        gap: 50px
+    }
+
+    .games img{
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .valorant, .lol{
+        width: 50%;
+        max-width: 500px;
+        height: 50%;
+    }
+
+    .valorant h3, .lol h3{
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

@@ -1,3 +1,20 @@
+nav{
+    width: calc(100vw-40px);
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:visited{
+    color: black;
+}
+
+nav a:hover{
+    color: rgba(255, 0, 0, 0.5);
+}
+
 .nav-logo-name, .icons h3{
     display: none;
 }
@@ -6,8 +23,10 @@
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
+    background-color: white;
 }
 
 a:hover>svg{
@@ -20,27 +39,14 @@ a:focus>svg{
 
 
 @media (min-width: 700px){
+
     nav{
-        width: auto;
         height: 110px;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: 20px 20px;
-        padding: 20px 20px;
-    }
-    
-    nav a{
-        text-decoration: none;
-        color: black;
-    }
-    
-    nav a:visited{
-        color: black;
-    }
-    
-    nav a:hover{
-        color: rgba(255, 0, 0, 0.5);
+        background-color: white;
     }
     
     .nav-logo-name{
@@ -54,17 +60,19 @@ a:focus>svg{
     
     .nav-logo{
         width: 10%;
+        min-width: 40px;
         margin-right: 20px;
     }
     
     .nav-name{
         width: 40%;
+        min-width: 160px;
     }
     
     .icons{
         position: inherit;
         width: 33vw;
-        min-width: 450px;
+        min-width: 380px;
         display: flex;
         justify-content: space-between;
         color: black;
@@ -76,7 +84,7 @@ a:focus>svg{
         align-items: center;
     }
     
-    h3{
+    .icons > a > h3{
         font-size: 20px;
         font-weight: 100;
         margin-left: 15px;

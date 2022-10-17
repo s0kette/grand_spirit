@@ -1,9 +1,61 @@
-    /* Style Valeurs */
+.values{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 50px 0px;
+}
+
+.values h2{
+    color: rgb(226, 32, 32);
+    margin-bottom: 30px;
+}
+
+.values h3{
+    color: rgb(226, 64, 64);
+    font-size: 1em;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+.value-icon{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(226, 64, 64);
+    border-radius: 50%;
+    align-self: center;
+}
+
+.values article img{
+    width: 50px;
+    padding: 15px 0px 0px 14px;
+}
+
+.value-flex-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: auto;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.ambition, .respect, .passion{
+    margin-top: 50px;
+}
+
+.ambition-text, .respect-text, .passion-text{
+    width: 50%;
+}
+
+
+
+@media (min-width: 700px){
+
     .values{
         background-color: rgb(255, 108, 108);
         margin-left: 0;
         margin-right: 0;
     }
+
     .values h2{
         padding-top: 50px;
         color: white;
@@ -12,9 +64,11 @@
         font-weight: 100;
         text-align: center;
     }
+
     .values h3{
         color: white;
     }
+
     .value-icon{
         width: 80px;
         height: 80px;
@@ -22,11 +76,13 @@
         border-radius: 50%;
         align-self: center;
     } 
+
     .value-flex-item{
         display: block;
         width: 400px;
         height: auto;
     }
+
     .value-flex-large-screen{
         margin-left: auto;
         margin-right: auto;
@@ -34,13 +90,16 @@
         justify-content: space-around;
         width: 80%;
     }
+
     .value-icon{
         margin-left: auto;
         margin-right: auto;
     }
+    
     .ambition-text, .respect-text, .passion-text{
         margin-top: 30px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
     }
+}
