@@ -1,5 +1,5 @@
 nav{
-    width: calc(100vw-40px);
+    width: calc(99vw-50px);
 }
 
 nav a{
@@ -41,6 +41,7 @@ a:focus>svg{
 @media (min-width: 700px){
 
     nav{
+        
         height: 110px;
         display: flex;
         justify-content: space-between;
