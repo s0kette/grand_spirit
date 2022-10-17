@@ -4,7 +4,7 @@
 }
 
 body{
-  width: 99vw;
+  width: calc(99vw-10px);
 }
 
 h2{
@@ -14,14 +14,72 @@ h2{
   font-weight: 100;
   text-align: center;
 }
+
 h3, p{
   font-family: 'News Cycle', sans-serif;
 }
+
+a{
+  text-decoration: none;
+}
+
+/* Style pour la page "équipes", les entêtes de présentation de chaque équipes */
+.result-header{
+  height: 300px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.team{
+  text-align: center;
+}
+
+.result-btn{
+  width: 40vw;
+  padding: 25px;
+  border-radius: 5px;
+  color: white;
+  font-family: 'News Cycle', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.result-btn:visited{
+  color: white;
+}
+
+.card{
+  margin-top: 50px;
+}
+
+.card p{
+  font-size: 20px;
+}
+/*Fin du style de la page "équipes"*/
+
+/*Style des boutons Discord et Twitter de la page "contact"*/
+
+
 
 @media (min-width: 700px){
 
   h2{
     font-size: 2.5em;
+  }
+
+  .team{
+    margin-top: 150px;
+  }
+
+  .result-header{
+    height: auto;
+  }
+
+  .result-btn{
+    max-width: 20vw;
   }
 }
 

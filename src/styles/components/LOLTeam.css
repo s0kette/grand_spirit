@@ -1,0 +1,68 @@
+.result-btn-lol{
+    background-color: rgb(60, 71, 221);
+}
+
+.result-btn-lol:visited{
+    background-color: rgb(60, 71, 221);
+}
+
+.result-btn-lol:hover{
+    background-color: rgb(60, 71, 221, 0.5);
+}
+
+.team-lol{
+    margin-bottom: 150px;
+}
+
+.team-lol .result-header img{
+    width: 50%;
+}
+
+@media (min-width: 850px){
+
+    .team-lol .result-header img{
+        max-width: 330px;
+    }
+
+    .team-lol{
+        margin-top: 200px !important;
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-areas: 
+        "one two result-lol result-lol result-lol"
+        "three four five six seven";
+    }
+
+    .result-header-lol{
+        grid-area: result-lol;
+    }
+
+    .card-one{
+        grid-area: one;
+    }
+
+    .card-two{
+        grid-area: two;
+    }
+
+    .card-three{
+        grid-area: three;
+    }
+
+    .card-four{
+        grid-area: four;
+    }
+
+    .card-five{
+        grid-area: five;
+    }
+
+    .card-six{
+        grid-area: six;
+    }
+
+    .card-seven{
+        grid-area: seven;
+    }
+}
